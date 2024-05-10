@@ -1,0 +1,59 @@
+input
+{
+    border: 2px solid black;
+    /* border-radius: 10px; */
+    background-color: ghostwhite;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+.p{
+    border-radius: 10px;
+}
+a i{
+    font-size: 20px;
+}
+.button {
+    transition: 0.7s;
+    border: 2px solid black;
+}
+.email{
+    width: 210px;
+    height: 50px;
+    padding-left: 10px;
+}
+.round{
+    transition: 0.7s;
+}
+.h1{
+    transition: 0.7s;
+}
+.img2{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+.class{
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px grey;
+
+}
+.class:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px grey;
+
+
+    
+}
+.hover{
+    -webkit-mask:
+        linear-gradient(#000 0 0),
+        linear-gradient(#000 0 0);
+
+}
+.hover:hover img{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
